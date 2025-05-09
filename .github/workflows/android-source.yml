@@ -4,7 +4,7 @@ on:
 
 jobs:
   android-source:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     env:
       # Which LOVE Android tree/version to use?
       # At least 11.4 branch is required if you need to target Android 11 and later.
