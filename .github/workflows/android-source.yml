@@ -1,4 +1,6 @@
-on:  push
+on:
+  push:
+  workflow_dispatch:  # Permite execução manual
 
 jobs:
   android-source:
